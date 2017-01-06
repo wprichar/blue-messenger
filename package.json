@@ -11,7 +11,6 @@
 		"morgan": "*",
 		"cfenv": "*",
 		"mosca": "*",
-        "ascoltatori": "*",
         "fs": "*",
         "cloudant": "*"
 	},
