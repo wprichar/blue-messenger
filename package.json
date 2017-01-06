@@ -6,12 +6,12 @@
 		"start": "node app.js"
 	},
 	"dependencies": {
-		"express": "4.12.x",
+		"express": "*",
 		"ejs": "*",
 		"morgan": "*",
-		"cfenv": "1.0.x",
-		"mosca": "0.30.x",
-        "ascoltatori": "0.21.0",
+		"cfenv": "*",
+		"mosca": "*",
+        "ascoltatori": "*",
         "fs": "*",
         "cloudant": "*"
 	},
