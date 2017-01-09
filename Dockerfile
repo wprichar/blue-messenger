@@ -1,9 +1,9 @@
 FROM registry.ng.bluemix.net/ibmnode:latest
 
-ADD . /node
-WORKDIR /node
+ADD . /
+WORKDIR /
 RUN npm install
 
 EXPOSE 80
 
-ENTRYPOINT ["node", "/node/app.js"]
+ENTRYPOINT ["node", "app.js"]
