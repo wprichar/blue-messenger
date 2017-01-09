@@ -1,4 +1,4 @@
-FROM registry-ice.ng.bluemix.net/ibmnode:latest
+FROM registry.ng.bluemix.net/ibmnode:latest
 
 ADD . /node
 WORKDIR /node
